@@ -1,0 +1,16 @@
+.navbar {
+    font-weight: 600;
+    /* background-color: blue; */
+    border-radius: 2em;
+    margin:0px;
+
+}
+
+
+
+.navbar-brand{
+    /* font-weight: 800; */
+    color:rgb(186, 168, 53);
+    font-size: 2em;
+    padding-right: 2em;
+}

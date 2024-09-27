@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;  /* Vertically aligns the items (optional) */
+    justify-content: space-between; /* Distribute space between the two parts */
+    padding: 20px;
+  }
+  
+  .part-one {
+    /* Styling for the first part (e.g., logo) */
+    flex: 1;  /* Allow it to take up equal space or adjust as needed */
+  }
+  
+  .part-two {
+    /* Styling for the second part (e.g., text) */
+    flex: 2;  /* Adjust the width proportion */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stacks the items on smaller screens */
+      text-align: center;
+    }
+  }
+  
+  .main-logo{
+    width: 44em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+
+}
