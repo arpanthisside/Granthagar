@@ -3,9 +3,14 @@
     display: flex;
     flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
     gap: 1em; /* Adds spacing between cards */
+    justify-content: center;
   }
   
   .card {
     margin: 0.5em; /* Optional, to ensure some margin around each card */
+  }
+  
+  .d-grid button {
+    margin: 10px;
   }
   
