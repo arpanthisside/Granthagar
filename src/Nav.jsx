@@ -6,7 +6,7 @@ export default function Nav() {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            DigiLib
+            Granthagar
           </a>
           <button
             class="navbar-toggler"
