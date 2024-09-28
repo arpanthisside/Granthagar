@@ -3,91 +3,30 @@ import './nav_1.css'
 export default function Nav() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Granthagar
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                >
-                  Disabled
-                </a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
+      <nav class="navbar">
+                <div class="navbar-left">
+                    <span class="navbar-contents1">Contents</span>
+                </div>
+                <div class="navbar-right">
+                    <ul class="navbar-list">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li class="dropdown">
+                            <a href="#">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#scrollspyHeading3">Third</a></li>
+                                <li><a href="#scrollspyHeading4">Fourth</a></li>
+                                {/* <li><hr class="dropdown-divider"/></li> */}
+                                <li><a href="#scrollspyHeading5">Fifth</a></li>
+                                <li><a href="#scrollspyHeading6">S</a></li>
+                                <li><a href="#scrollspyHeading7">7</a></li>
+                                <li><a href="#scrollspyHeading8">8</a></li>
+                                <li><a href="#scrollspyHeading9">9</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
     </>
   );
 }

@@ -9,6 +9,8 @@ import './entry_1.css'
 import Footer from './Footer';
 import Body from './Body';
 import './body_1.css'
+import Banner from './Banner';
+import './banner_1.css';
 import './nav_1.css'
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
     <>
       <Nav />
       <Entry/>
+      <Banner />
       <BodyPre/>
       <Body/>
       <Footer />
