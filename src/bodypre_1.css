@@ -1,30 +1,61 @@
-/* In your external CSS file (e.g., styles.css) */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.relevant-experience {
+  margin-top: 50px;
+  text-align: center;
+}
 
-.navbar navbar-light bg-light px-3 {
-    background-color: rgb(164, 56, 56);
-    
-  }
+.relevant-experience h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
 
-  .navbar-brand{
-    padding-left: 20px;
-    font-family: kanit;
-    font-weight: 600;
-  }
+.experience-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
 
-  .scrollspy-example{
-    margin: 2em;
-  }
+.experience-image {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .bdy-main{
-    margin-top: 5em;
-  }
+.experience-content {
+  text-align: left;
+  padding: 20px;
+}
 
-  .bdy-main p {
-    margin-bottom: 3em;
-  }
+.experience-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
-  .bdy-main h4{
-    font-weight: 600;
-    /* align-items: self-start; */
-  }
+.experience-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.experience-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.experience-item:nth-child(even) .experience-image {
+  margin-right: 20px;
+}
+
+.experience-item:nth-child(even) .experience-content {
+  text-align: right;
+}
