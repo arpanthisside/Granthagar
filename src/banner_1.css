@@ -1,11 +1,13 @@
 .book-importance-container {
     display: flex;
     flex-direction: row;
-    width: 800px; /* adjust to your desired width */
-    height: 300px; /* adjust to your desired height */
+    width: 70em; /* adjust to your desired width */
+    height: 30em; /* adjust to your desired height */
     background-color: #f0f0f0;
     padding: 20px;
     justify-content: center;
+    margin-bottom: 90px;
+    margin-left: 2.3em;
   }
   
   .book-benefits-description {
